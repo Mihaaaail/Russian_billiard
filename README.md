@@ -1,4 +1,5 @@
 # Russian_billiard
+![Demo](./demo.gif)
 A simple Russian billiards simulator implemented in C++ with SFML.
 Features realistic physics, collisions, friction, cue control, scoring system, and basic pocketing mechanics.
 All main logic, rendering, and animation are separated into clean modules for easy reading and extension.
