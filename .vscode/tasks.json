@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SFML Build (MINGW64)",
+      "type": "process",
+      "command": "C:/Users/tsymb/C++ compiler/mingw64/bin/g++.exe",
+      "args": [
+        "-Iinclude",
+        "-IC:/Users/tsymb/C++ compiler/mingw64/include",
+        "-LC:/Users/tsymb/C++ compiler/mingw64/lib",
+        "-g",
+        "src/main.cpp",
+        "src/Table.cpp",
+        "src/Ball.cpp",
+        "src/Physics.cpp",
+        "src/Cue.cpp",
+        "-o",
+        "src/app.exe",
+        "-lsfml-graphics",
+        "-lsfml-window",
+        "-lsfml-system"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {"kind": "build", "isDefault": true}
+    }
+  ]
+}
+
+
